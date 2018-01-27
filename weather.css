@@ -1,0 +1,69 @@
+body {
+	background: #485b6e;
+}
+/* Design for the app body  */
+#app{
+    height: 600px;
+    background-color: #CCD1D9;
+    border: solid 3px #CCD1D9;
+    box-shadow: 0 0 25px  #333;
+    text-align: center;
+    margin: auto;
+    margin-top:100px;
+    width: 600px;
+    position: static;
+    opacity: 0.7;
+}
+.line{
+    height: 2px;
+    width: 300px;
+    background: white;
+    margin: 0 auto;
+    
+/* Design for the title of the app */
+}
+#weather{
+    color: rgb(38, 50, 161);
+    font-family: "luminari, fantasy";
+    font-size: 50px;
+
+}
+/* location and the temperature */
+#location, #temp{
+    color: rgb(111, 58, 172);
+    font-size: 40px;
+    margin-top: 150px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* type of the weather, wind speed, and humidity */
+#type, #wind, #humidity{
+    color: rgb(226, 59, 59);
+    font-size: 25px;
+    margin-top: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* Design for the weather icon */
+.wi{
+    font-size: 60px;
+    position: absolute;
+    margin: 80px 100px; 
+}
+.wi:hover{
+    color: #485b6e;
+}
+
+/*footer of the page */
+.footnote{
+    text-align: center;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    color: black;
+    padding: 0.3em;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
